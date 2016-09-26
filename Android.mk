@@ -20,7 +20,7 @@ $(fdroid_root)/$(fdroid_dir)/$(fdroid_apk):
 
 LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
-LOCAL_SRC_FILES := $(fdroid_dir)/$(fdroid_apk)
+LOCAL_SRC_FILES := prebuilt/$(my_src_arch)/F-Droid.apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 
